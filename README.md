@@ -6,5 +6,5 @@ Implementation and testing of the FizzBuzz game in:
 * Python _(tested with unittest)_
 * JavaScript _(tested with Jasmine)_
 * C _(tests to be added)_
-* Assemble _(work in progress)_
+* Assembly _(work in progress)_
 * CoffeeScript _(work in progress)_
