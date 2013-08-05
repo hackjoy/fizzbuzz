@@ -1,5 +1,6 @@
 import unittest
 
+# returns an array from 1 to max_number with values according to the fizzbuzz rules 
 def fizzbuzz(max_number):
 	result = []
 	for n in range(1, max_number+1):
