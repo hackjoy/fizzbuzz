@@ -1,0 +1,13 @@
+fn main() {
+  fn fizzbuzz(num: int) {
+    for i in range(0i, num) {
+      match i {
+        i if (i % 3 == 0 && i % 5 == 0) => println!("Fizzbuzz"),
+        i if (i % 3 == 0) => println!("Fizz"),
+        i if (i % 5 == 0) => println!("buzz"),
+        _ => println!("{}", i)
+      }
+    }
+  }
+  fizzbuzz(20);
+}
